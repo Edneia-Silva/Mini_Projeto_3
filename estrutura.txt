@@ -1,11 +1,9 @@
-meu_projeto_api/
+Mini_Projeto_3/
 │
-├── README.md
-├── requirements.txt
+├── venv/                # ambiente virtual
 │
-├── server/        # Servidor da API
-│   └├── main.py
-│       └── __init__.py
+├── server/
+│   └── main.py          # servidor FastAPI
 │
-└── cliente/        # Cliente que consome a API
-    └── main.py
+└── client/
+    └── main.py          # cliente Python
